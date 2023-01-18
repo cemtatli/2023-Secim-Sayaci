@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset=" UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2023 Seçim Sayacı</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="shortcut icon" href="./images/fav.svg" type="image/x-icon">
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@1,900,700,500,300,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar tooltip dark:bg-base-300 bg-black text-white dark:text-primary-content  ">
+        <button class="btn btn-ghost normal-case text-xl">2023 Seçim Sayacı</button>
+        <button class=""></button>
+    </div>
+    <!-- Sayac -->
+    <div class=" text-white flex items-center justify-center gap-4 p-2 my-20 max-md:flex-col max-md:my-[100px]">
+        <div id="days" class="text-7xl dark:text-zinc-50 text-black p-1 max-md:text-4xl"></div>
+        <div id="hours" class="text-7xl dark:text-zinc-50 text-black p-1 max-md:text-4xl"></div>
+        <div id="minutes" class="text-7xl dark:text-zinc-50 text-black p-1 max-md:text-4xl"></div>
+        <div id="seconds" class="text-7xl dark:text-zinc-50 text-black p-1 max-md:text-4xl"></div>
+    </div>
+    <!-- Sorular -->
+    <div class="flex flex-col gap-4 max-md:gap-2 px-4 max-md:mb-auto">
+        <div class="collapse collapse-arrow rounded-md w-4/6 mx-auto max-md:w-full max-md:mx-0">
+            <input type="checkbox" class="peer" />
+            <div
+                class="collapse-title dark:bg-gray-200 bg-black text-white dark:text-gray-900  font-medium peer-checked:bg-black/90 dark:peer-checked:bg-gray-200 peer-checked:text-secondary-content dark:peer-checked:text-gray-900">
+                Cumhurbaşkanlığı Seçimi Kaç Yılda Bir Yapılır?
+            </div>
+            <div
+                class="collapse-content bg-black dark:bg-gray-200 text-primary-content peer-checked:bg-black/90 dark:peer-checked:bg-gray-200 peer-checked:text-secondary-content dark:peer-checked:text-gray-900">
+                <p>Türkiye'de Cumhurbaşkanlığı seçimleri beş yılda bir yapılmaktadır.</p>
+            </div>
+        </div>
+        <div class="collapse collapse-arrow rounded-md w-4/6 mx-auto max-md:w-full max-md:mx-0">
+            <input type="checkbox" class="peer" />
+            <div
+                class="collapse-title dark:bg-gray-200 bg-black text-white dark:text-gray-900  font-medium peer-checked:bg-black/90 dark:peer-checked:bg-gray-200 peer-checked:text-secondary-content dark:peer-checked:text-gray-900">
+                Cumhurbaşkanı 3 Kez Seçilebilir mi?
+            </div>
+            <div
+                class="collapse-content bg-black dark:bg-gray-200 text-primary-content peer-checked:bg-black/90 dark:peer-checked:bg-gray-200 peer-checked:text-secondary-content dark:peer-checked:text-gray-900">
+                <p>Cumhurbaşkanı seçimi kanunu gereği, en fazla iki dönem Cumhurbaşkanlığı yapabilmektedir. Ancak,
+                    Cumhurbaşkanının ikinci döneminde Meclis tarafından seçimlerin yenilenmesine karar verilirse, mevcut
+                    Cumhurbaşkanı bir kez daha aday olabilmektedir.</p>
+            </div>
+        </div>
+        <div class="collapse collapse-arrow rounded-md w-4/6 mx-auto max-md:w-full max-md:mx-0">
+            <input type="checkbox" class="peer" />
+            <div
+                class="collapse-title dark:bg-gray-200 bg-black text-white dark:text-gray-900  font-medium peer-checked:bg-black/90 dark:peer-checked:bg-gray-200 peer-checked:text-secondary-content dark:peer-checked:text-gray-900">
+                Cumhurbaşkanı En Fazla Kaç Yıl Görev Yapar?
+            </div>
+            <div
+                class="collapse-content bg-black dark:bg-gray-200 text-primary-content peer-checked:bg-black/90 dark:peer-checked:bg-gray-200 peer-checked:text-secondary-content dark:peer-checked:text-gray-900">
+                <p>TBMM seçimleri ile Cumhurbaşkanlığı seçimleri beş yılda bir olacak şekilde aynı gün gerçekleşir. Bir
+                    aday en fazla 2 defa cumhurbaşkanı görevi yapabilir. Ancak eğer meclis tarafından seçimler
+                    yenilensin diye karar çıkarsa Cumhurbaşkanı bir kez daha aday olma hakkına sahip olur.</p>
+            </div>
+        </div>
+        <div class="collapse collapse-arrow rounded-md w-4/6 mx-auto max-md:w-full max-md:mx-0">
+            <input type="checkbox" class="peer" />
+            <div
+                class="collapse-title dark:bg-gray-200 bg-black text-white dark:text-gray-900  font-medium peer-checked:bg-black/90 dark:peer-checked:bg-gray-200 peer-checked:text-secondary-content dark:peer-checked:text-gray-900">
+                Erken seçim kararı için kaç milletvekili gerekir?
+            </div>
+            <div
+                class="collapse-content bg-black dark:bg-gray-200 text-primary-content peer-checked:bg-black/90 dark:peer-checked:bg-gray-200 peer-checked:text-secondary-content dark:peer-checked:text-gray-900">
+                <p>Cumhurbaşkanı seçiminde adaylığında siyasi parti gruplarında en son yapılmış olan genel seçim
+                    sonuçları toplamda geçerli olan oyun tek başına ya da en az yüzde beşini alan partiler ile en az yüz
+                    bin seçmen aday gösterilebilir</p>
+            </div>
+        </div>
+        <div class="collapse collapse-arrow rounded-md w-4/6 mx-auto max-md:w-full max-md:mx-0">
+            <input type="checkbox" class="peer" />
+            <div
+                class="collapse-title dark:bg-gray-200 bg-black text-white dark:text-gray-900  font-medium peer-checked:bg-black/90 dark:peer-checked:bg-gray-200 peer-checked:text-secondary-content dark:peer-checked:text-gray-900">
+                Cumhurbaşkanı seçilen kişinin partisi ile ilişiği kesilir mi?
+            </div>
+            <div
+                class="collapse-content bg-black dark:bg-gray-200 text-primary-content peer-checked:bg-black/90 dark:peer-checked:bg-gray-200 peer-checked:text-secondary-content dark:peer-checked:text-gray-900">
+                <p>Bu durum için ancak Meclis üye tamsayısının en az beşte birinin yazılı önerisi gerekir. Bununla
+                    birlikte bir kimsenin iki defa cumhurbaşkanı seçilmesi gibi bir durum söz konusu değildir.
+                    Cumhurbaşkanı seçilen kişinin partisi varsa partisi ile ilişiği kesilir ve Türkiye Büyük Millet
+                    Meclisi üyeliği sona erer.</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>
