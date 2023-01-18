@@ -14,10 +14,10 @@ let x = setInterval(function () {
   let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   let seconds = Math.floor((distance % (1000 * 60)) / 1000);
   // DOM'a yazdırma işlemi
-  document.getElementById("days").innerHTML = `${days} <span class="text-5xl md:text-3xl">gün</span>`;
-  document.getElementById("hours").innerHTML = `${hours} <span class="text-5xl md:text-3xl">saat</span>`;
-  document.getElementById("minutes").innerHTML = `${minutes} <span class="text-5xl md:text-3xl">dakika</span>`;
-  document.getElementById("seconds").innerHTML = `${seconds} <span class="text-5xl md:text-3xl">saniye</span>`;
+  document.getElementById("days").innerHTML = `${days} <span class="text-5xl md:text-2xl">gün</span>`;
+  document.getElementById("hours").innerHTML = `${hours} <span class="text-5xl md:text-2xl">saat</span>`;
+  document.getElementById("minutes").innerHTML = `${minutes} <span class="text-5xl md:text-2xl">dakika</span>`;
+  document.getElementById("seconds").innerHTML = `${seconds} <span class="text-5xl md:text-2xl">saniye</span>`;
   // Geri sayım bitince yazılacak metin
   if (distance < 0) {
     clearInterval(x);

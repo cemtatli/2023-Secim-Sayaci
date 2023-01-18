@@ -2750,6 +2750,11 @@ body {
   margin-bottom: 120px;
 }
 
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .mb-auto {
   margin-bottom: auto;
 }
@@ -3378,6 +3383,14 @@ body {
 
   .max-md\:gap-2 {
     gap: 0.5rem;
+  }
+
+  .max-md\:gap-0 {
+    gap: 0px;
+  }
+
+  .max-md\:p-0 {
+    padding: 0px;
   }
 
   .max-md\:text-3xl {
