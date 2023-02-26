@@ -24,19 +24,14 @@ let x = setInterval(function () {
 });
 
 // LOCAL STORAGE DARK-LIGHT MODE İŞLEMLERİ
-if (
-  localStorage.theme === "dark" ||
-  (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)
-) {
+if (localStorage.getItem("dark")) {
   document.documentElement.classList.add("dark");
-} else {
-  document.documentElement.classList.remove("dark");
 }
-localStorage.theme = "light";
-localStorage.theme = "dark";
-localStorage.removeItem("theme");
-
-// DARK MODE BUTONU
 function darkMode() {
   document.documentElement.classList.toggle("dark");
+  if (document.documentElement.classList.contains("dark")) {
+    localStorage.setItem("dark", true);
+  } else {
+    localStorage.removeItem("dark");
+  }
 }
