@@ -3,7 +3,7 @@ import { Button, Dialog, DialogHeader, DialogBody, DialogFooter } from "@materia
 import { InformationCircleIcon } from "@heroicons/react/24/outline";
 
 const style = {
-  btn: `flex items-center gap-1.5 text-sm normal-case tracking-wide text-red-500 justify-center text-red-500 dark:text-blue-500 h-12 px-4 py-2 border border-transparent text-base font-medium `,
+  btn: `flex items-center gap-1.5 w-full text-sm normal-case tracking-wide text-red-500 justify-center text-red-500 dark:text-blue-500 h-12 px-4 py-2 border border-transparent text-base font-medium `,
   header: `text-xl font-semibold`,
   body: `text-start px-5 py-3`,
   bold: `font-semibold`,
