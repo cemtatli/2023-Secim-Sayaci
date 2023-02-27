@@ -5,7 +5,7 @@ import Dialog from "../Dialog";
 
 const style = {
   header: `sticky top-0 z-10 flex h-16 items-center justify-between px-4 py-2 text-white gap-6 bg-gradient-to-r from-red-300 to-red-400 dark:bg-[conic-gradient(at_top_left,_var(--tw-gradient-stops))] dark:from-blue-700 dark:via-blue-800 dark:to-gray-900 dark:text-white lg:text-lg;`,
-  title: `text-xl font-bold tracking-wide`,
+  title: `text-xl font-bold`,
   button: `focus:outline-none flex items-center justify-center`,
 };
 
