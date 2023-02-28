@@ -40,9 +40,9 @@ function App() {
       <Header />
       <main>
         <Countdown timerDays={timerDays} timerHours={timerHours} TimerMinutes={timerMinutes} timerSeconds={timerSeconds} />
+        <Dialog />
         <Acordion />
       </main>
-      <Dialog />
     </>
   );
 }

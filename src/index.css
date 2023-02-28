@@ -10,14 +10,12 @@
     @apply h-full scroll-smooth antialiased;
   }
   ::-webkit-scrollbar {
-    width: 5px;
+    width: 3px;
   }
   ::-webkit-scrollbar-track {
     background: #fff;
   }
-  ::-webkit-scrollbar-thumb {
-    background: #2e2e2e;
-  }
+
   header {
     backdrop-filter: blur(10px);
   }
