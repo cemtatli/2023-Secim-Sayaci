@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Acordion from "./components/Acordion";
 import Countdown from "./components/Countdown";
 import Dialog from "./components/Dialog";
+import Footer from "./components/Footer";
 
 function App() {
   const [timerDays, setTimerDays] = useState();
@@ -43,6 +44,7 @@ function App() {
         <Dialog />
         <Acordion />
       </main>
+      <Footer />
     </>
   );
 }

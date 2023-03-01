@@ -2,8 +2,8 @@ import { useState, Fragment } from "react";
 import { Accordion, AccordionHeader, AccordionBody } from "@material-tailwind/react";
 
 const style = {
-  container: `flex flex-col items-center justify-center my-8 `,
-  accordion: `px-4 lg:px-8`,
+  wrapper: `flex flex-col items-center justify-center my-6`,
+  accordion: `px-3 lg:px-6`,
   header: `text-base lg:text-lg font-semibold text-start text-gray-800 bg-gray-100 rounded-lg p-4 mb-2 `,
   body: ` text-sm lg:text-base text-gray-800 leading-relaxed p-3 font-medium`,
 };
@@ -20,7 +20,7 @@ export default function Example() {
   };
 
   return (
-    <div className={style.container}>
+    <div className={style.wrapper}>
       <Fragment>
         <Accordion open={open === 1} animate={customAnimation} className={style.accordion}>
           <AccordionHeader onClick={() => handleOpen(1)} className={style.header}>

@@ -3,20 +3,12 @@
 @tailwind utilities;
 
 @layer base {
-  #root,
   html,
   body {
     font-family: "Inter", sans-serif;
-    @apply h-full scroll-smooth antialiased;
+    @apply scroll-smooth antialiased;
   }
   ::-webkit-scrollbar {
-    width: 3px;
-  }
-  ::-webkit-scrollbar-track {
-    background: #fff;
-  }
-
-  header {
-    backdrop-filter: blur(10px);
+    width: 0.25px;
   }
 }
