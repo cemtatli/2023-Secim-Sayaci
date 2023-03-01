@@ -19,7 +19,7 @@ export default function Data() {
   );
   return (
     <>
-      <TurkeyMap cityWrapper={renderCity} customStyle={{ idleColor: "#666", hoverColor: "#999" }} />
+      <TurkeyMap cityWrapper={renderCity} customStyle={{ idleColor: "#555", hoverColor: "#999" }} />
       <div className={style.wrapper}>
         <div className={style.info}>
           <span className={style.color_info_1}></span>
