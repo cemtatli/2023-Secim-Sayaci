@@ -11,7 +11,7 @@ const style = {
   color_info_4: `bg-yellow-600 w-4 h-4 rounded-full mr-2`,
 };
 
-export default function Data() {
+export default function ElectionMap() {
   const renderCity = (cityComponent, cityData) => (
     <Tooltip title={cityData.name} key={cityData.id}>
       {cityComponent}
