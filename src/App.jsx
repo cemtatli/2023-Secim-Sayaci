@@ -4,7 +4,6 @@ import Acordion from "./components/Acordion";
 import Countdown from "./components/Countdown";
 import Dialog from "./components/Dialog";
 import Footer from "./components/Footer";
-import TurkeyMap from "./components/ElectionMap";
 
 function App() {
   const [timerDays, setTimerDays] = useState();
@@ -44,7 +43,6 @@ function App() {
         <Countdown timerDays={timerDays} timerHours={timerHours} TimerMinutes={timerMinutes} timerSeconds={timerSeconds} />
         <Dialog />
         <Acordion />
-        <TurkeyMap />
       </main>
       <Footer />
     </>
