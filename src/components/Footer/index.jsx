@@ -2,8 +2,8 @@ import React from "react";
 import { BsGithub, BsTwitter } from "react-icons/bs";
 
 const style = {
-  footer: `text-center text-gray-800 bg-gray-100 font-semibold text-xs h-10 flex items-center justify-between lg:justify-end px-4 py-2 w-full sticky bottom-0`,
-  icon: `text-xl ml-2 text-gray-600 hover:text-gray-800 transition duration-300 ease-in-out`,
+  footer: `text-center text-white mt-5 bg-gradient-to-r h-10 flex items-center from-red-300 to-red-400 dark:bg-[conic-gradient(at_top_left,_var(--tw-gradient-stops))] dark:from-blue-700 dark:via-blue-800 dark:to-gray-900 font-semibold text-xs justify-between lg:justify-end px-4 py-2 w-full sticky bottom-0`,
+  icon: `text-xl ml-2 text-white`,
   link: `flex items-center mx-4`,
 };
 

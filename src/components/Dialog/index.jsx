@@ -3,7 +3,7 @@ import { Button, Dialog, DialogHeader, DialogBody, DialogFooter } from "@materia
 import { InformationCircleIcon } from "@heroicons/react/24/outline";
 
 const style = {
-  container: `flex items-center justify-center w-full`,
+  wrapper: `flex items-center justify-center w-full`,
   btn: `flex items-center gap-1.5 text-sm normal-case tracking-wide justify-center text-red-500 dark:text-blue-500 h-12 px-4 py-2  text-base font-medium `,
   header: `text-lg font-bold`,
   body: `text-start px-5 py-3`,
@@ -18,7 +18,7 @@ export default function Example() {
 
   return (
     <Fragment>
-      <div className={style.container}>
+      <div className={style.wrapper}>
         <Button onClick={() => handleOpen("lg")} variant="text" color="white" className={style.btn}>
           <InformationCircleIcon className="h-6 w-6" /> Bilgilendirme
         </Button>
