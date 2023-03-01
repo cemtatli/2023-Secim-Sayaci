@@ -4,7 +4,7 @@ import { Tooltip } from "antd";
 
 const style = {
   wrapper: `flex items-center justify-center flex-col lg:flex-row gap-4 lg:gap-16 my-4 w-full max-w-5xl mx-auto`,
-  info: `flex items-center justify-center uppercase text-sm font-bold text-gray-700 hover:text-gray-900 group cursor-pointer`,
+  info: `flex items-center justify-center uppercase text-sm font-bold text-gray-700 hover:text-gray-900 group cursor-pointer select-none`,
   color_info_1: `bg-red-600 w-4 h-4 rounded-full mr-2`,
   color_info_2: `bg-blue-600 w-4 h-4 rounded-full mr-2`,
   color_info_3: `bg-purple-600 w-4 h-4 rounded-full mr-2`,
