@@ -1,4 +1,4 @@
-<h1>2023 Seçim Sayacı</h1>
+<h1>🗳️ 2023 Seçim Sayacı</h1>
 <p>Welcome to the "2023 Seçim Sayacı" repository.</p>
 
 <h3>Only with HTML, Tailwind CSS (Material Tailwind) and React JS technology.</h3>
