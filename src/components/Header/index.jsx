@@ -4,8 +4,8 @@ import { SunIcon, MoonIcon } from "@heroicons/react/24/outline";
 import Dialog from "../Dialog";
 
 const style = {
-  header: `sticky top-0 z-10 flex h-14 items-center justify-between px-4 py-2 text-white gap-6 bg-gradient-to-r from-red-300 to-red-400 dark:bg-[conic-gradient(at_top_left,_var(--tw-gradient-stops))] dark:from-blue-700 dark:via-blue-800 dark:to-gray-900 dark:text-white lg:text-lg;`,
-  title: `text-xl font-bold`,
+  header: `flex h-15 items-center justify-between px-4 py-2 text-white gap-4 bg-gradient-to-r from-red-300 to-red-400 dark:bg-[conic-gradient(at_top_left,_var(--tw-gradient-stops))] dark:from-blue-700 dark:via-blue-800 dark:to-gray-900 dark:text-white lg:text-lg;`,
+  title: `text-xl font-bold `,
   button: `focus:outline-none flex items-center justify-center`,
 };
 
@@ -13,7 +13,6 @@ export default function Header() {
   return (
     <header className={style.header}>
       <span className={style.title}>2023 Seçim Sayacı</span>
-
       <button
         className={style.button}
         onClick={() => {

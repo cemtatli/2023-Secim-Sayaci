@@ -2,10 +2,10 @@ import { useState, Fragment } from "react";
 import { Accordion, AccordionHeader, AccordionBody } from "@material-tailwind/react";
 
 const style = {
-  wrapper: `flex flex-col items-center justify-center my-6`,
-  accordion: `px-4 lg:px-6`,
+  wrapper: `flex flex-col items-center justify-center w-full gap-2 mb-8 select-none px-4 lg:px-0 `,
+  accordion: `px-4 lg:px-6 w-full max-w-3xl lg:max-w-5xl`,
   header: `text-base lg:text-lg font-semibold text-start text-gray-800 bg-gray-100 rounded-lg p-4 mb-2 cursor-pointer hover:bg-gray-200 transition-all duration-300 ease-in-out `,
-  body: ` text-sm lg:text-base text-gray-800 leading-relaxed p-4 font-medium `,
+  body: ` text-sm lg:text-base text-gray-800 leading-relaxed p-4 font-medium dark:text-white  dark:transition-all dark:duration-300 dark:ease-in-out rounded-lg `,
 };
 export default function Example() {
   const [open, setOpen] = useState(0);

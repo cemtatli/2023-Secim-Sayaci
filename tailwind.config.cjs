@@ -9,12 +9,13 @@ module.exports = withMT({
     extend: {
       spacing: {
         15: "3.75rem",
+        35: "8.75rem",
       },
       fontFamily: {
         sans: ["Inter", "sans-serif"],
       },
       colors: {
-        "dark-bg": "#1F2937",
+        "dark-bg": "#0c1625",
       },
     },
   },

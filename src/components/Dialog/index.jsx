@@ -3,7 +3,7 @@ import { Button, Dialog, DialogHeader, DialogBody, DialogFooter } from "@materia
 import { InformationCircleIcon } from "@heroicons/react/24/outline";
 
 const style = {
-  wrapper: `flex items-center justify-center w-full`,
+  wrapper: `flex items-center justify-center w-full h-full select-none px-4 lg:px-0 mb-8`,
   btn: `flex items-center gap-1.5 text-sm normal-case tracking-wide justify-center text-red-500 dark:text-blue-500 h-12 px-4 py-2  text-base font-medium `,
   header: `text-lg font-bold`,
   body: `text-start px-5 py-3`,
@@ -24,7 +24,14 @@ export default function Example() {
         </Button>
       </div>
       <Dialog
-        open={size === "xs" || size === "sm" || size === "md" || size === "lg" || size === "xl" || size === "xxl"}
+        open={
+          size === "xs" ||
+          size === "sm" ||
+          size === "md" ||
+          size === "lg" ||
+          size === "xl" ||
+          size === "xxl"
+        }
         size={"xl" || size}
         handler={handleOpen}
         animate={{
@@ -34,9 +41,10 @@ export default function Example() {
       >
         <DialogHeader className={style.header}>Bilgilendirme</DialogHeader>
         <DialogBody divider className={style.body}>
-          Bir sonraki Türkiye cumhurbaşkanlığı seçimi, Türkiye genel seçimleri ile aynı gün yapılacak ve Türkiye cumhurbaşkanını belirlemek
-          için <span className={style.bold}>14 Mayıs 2023</span> tarihinde oy kullanacaktır. Bu sayaç, en son açıklanan seçim tarihine göre
-          geri sayım yapmaktadır.
+          Bir sonraki Türkiye cumhurbaşkanlığı seçimi, Türkiye genel seçimleri ile aynı gün
+          yapılacak ve Türkiye cumhurbaşkanını belirlemek için{" "}
+          <span className={style.bold}>14 Mayıs 2023</span> tarihinde oy kullanacaktır. Bu sayaç, en
+          son açıklanan seçim tarihine göre geri sayım yapmaktadır.
         </DialogBody>
         <DialogFooter className={style.footer}>
           <Button variant="text" color="red" onClick={() => handleOpen(null)}>
