@@ -6,7 +6,7 @@
   html,
   body {
     font-family: "Inter", sans-serif;
-    @apply scroll-smooth antialiased;
+    @apply scroll-smooth antialiased dark:bg-dark-bg;
   }
   ::-webkit-scrollbar {
     width: 0.25px;
